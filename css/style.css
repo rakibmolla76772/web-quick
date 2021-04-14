@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid red;
+
+}
+.header-content{
+
+width: 90%;
+
+margin-left:5%;
+
+padding-top:15px;
+
+paddinf-bottom:15px;
+
+overflow: hidden;
+}
+.logo{
+
+width: 20%;
+float: left;
+}
+.logo img{
+
+width: 50%;
+}
+nav{
+    padding-top: 2%;
+    float: right;
+}
+nav ul{list-style: none;/* float: left; */overflow: hidden;float: left;}
+nav ul li{
+     
+float: left;
+     
+margin-right: 25px;
+     
+text-transform: capitalize;
+}
+.content{
+
+margin-left: 20%;
+
+margin-right: 20%;
+}
+.content h1{
+text-align: center;
+color: rgb(30, 13, 109);
+}
+.content img{
+    margin-left: 30%;
+}
